@@ -17,7 +17,6 @@ export default function Home() {
           console.log("error", err);
         });
       dispatch(addMOvies(response.data));
-      console.log("response fron  the api", response.data);
     };
     fetchMovies();
   }, []);

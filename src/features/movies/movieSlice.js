@@ -1,7 +1,34 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import movieApi from "../../common/apis/movieApi";
+import APIKEY from "../../common/apis/movieAPIkey";
+
+export const fetchAsyncMovies = createAsyncThunk(
+  "movies/fetchAsyncMovies",
+  async () => {
+    const movietxt = "blood";
+    const response = await movieApi.get(
+      `?apiKey=${APIKEY}&s=${movietxt}&type=movie`
+    );
+
+    return response.data;
+  }
+);
+
+export const fetchAsyncSeries = createAsyncThunk(
+  "movies/fetchAsyncSeries",
+  async () => {
+    const Seriestxt = "prison";
+    const response = await movieApi.get(
+      `?apiKey=${APIKEY}&s=${Seriestxt}&type=series`
+    );
+
+    return response.data;
+  }
+);
 
 const initialState = {
   movies: {},
+  shows: {},
 };
 
 const movieSlice = createSlice({
@@ -12,7 +39,28 @@ const movieSlice = createSlice({
       state.movies = payload;
     },
   },
-  //   extraReducers: {},
+  extraReducers: (builder) => {
+    builder.addCase(fetchAsyncMovies.pending, (state) => {
+      state.loading = true;
+    });
+    builder.addCase(fetchAsyncMovies.fulfilled, (state, action) => {
+      state.loading = false;
+      state.movies = action.payload;
+      state.error = "";
+      console.log("fetched movies succefully");
+    });
+    builder.addCase(fetchAsyncMovies.rejected, (state, action) => {
+      state.loading = false;
+      state.movies = [];
+      state.error = action.error.message;
+    });
+    builder.addCase(fetchAsyncSeries.fulfilled, (state, action) => {
+      state.loading = false;
+      state.shows = action.payload;
+      state.error = "";
+      console.log("fetched shows succefully");
+    });
+  },
 });
 
 export const { addMOvies } = movieSlice.actions;

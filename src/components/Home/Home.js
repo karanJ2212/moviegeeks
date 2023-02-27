@@ -2,9 +2,13 @@ import React, { useEffect } from "react";
 import MovieListing from "../MovieListing/MovieListing";
 import movieApi from "../../common/apis/movieApi";
 import APIKEY from "../../common/apis/movieAPIkey";
+import { useDispatch } from "react-redux";
+import { addMOvies } from "../../features/movies/movieSlice";
 
 export default function Home() {
   const movietxt = "rocky";
+  const dispatch = useDispatch();
+
   useEffect(() => {
     const fetchMovies = async () => {
       const response = await movieApi
@@ -12,7 +16,8 @@ export default function Home() {
         .catch((err) => {
           console.log("error", err);
         });
-      console.log("response fron  the api", response);
+      dispatch(addMOvies(response.data));
+      console.log("response fron  the api", response.data);
     };
     fetchMovies();
   }, []);

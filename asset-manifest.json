@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/moviegeeks/static/css/main.beecd57b.css",
+    "main.js": "/moviegeeks/static/js/main.02c5dd67.js",
+    "static/media/user.png": "/moviegeeks/static/media/user.109eb92014ac0b55efdf.png",
+    "index.html": "/moviegeeks/index.html",
+    "main.beecd57b.css.map": "/moviegeeks/static/css/main.beecd57b.css.map",
+    "main.02c5dd67.js.map": "/moviegeeks/static/js/main.02c5dd67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.beecd57b.css",
+    "static/js/main.02c5dd67.js"
+  ]
+}

@@ -37,11 +37,11 @@ import "./App.scss";
 function App() {
   return (
     <div className="app">
-      <Router>
+      <Router basename="/moviegeeks">
         <Header></Header>
         <div className="container">
           <Routes>
-            <Route path="/" exact element={<Home></Home>} />
+            <Route exact path="/moviegeeks" element={<Home></Home>} />
             <Route path="/movie/:imdbID" element={<MovieDetails />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>

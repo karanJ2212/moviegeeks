@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/moviegeeks/static/css/main.beecd57b.css",
-    "main.js": "/moviegeeks/static/js/main.2bf7471a.js",
+    "main.js": "/moviegeeks/static/js/main.5c5fc2fd.js",
     "static/media/user.png": "/moviegeeks/static/media/user.109eb92014ac0b55efdf.png",
     "index.html": "/moviegeeks/index.html",
     "main.beecd57b.css.map": "/moviegeeks/static/css/main.beecd57b.css.map",
-    "main.2bf7471a.js.map": "/moviegeeks/static/js/main.2bf7471a.js.map"
+    "main.5c5fc2fd.js.map": "/moviegeeks/static/js/main.5c5fc2fd.js.map"
   },
   "entrypoints": [
     "static/css/main.beecd57b.css",
-    "static/js/main.2bf7471a.js"
+    "static/js/main.5c5fc2fd.js"
   ]
 }

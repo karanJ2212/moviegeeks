@@ -1,4 +1,4 @@
-# MovieGeeks_ 🔖
+# MovieGeeks 🔖
 
 <div align="center">
 
@@ -26,8 +26,10 @@
 - Javascript OOP, ES6.
 - React
 - Redux
-- Redux toolkit
-- 
+- Redux toolkit 
+
+# Live demo
+https://karanj2212.github.io/moviegeeks/
 
 # 💻 Getting Started:
 ### To get a local copy up and running, follow these steps:
@@ -52,8 +54,8 @@
 
 # Usage:
 ### To run the project, execute the following command:
-- git clone https://github.com/karanj2212/moviegeek-.git
-- cd ToDo List
+ git clone https://github.com/karanj2212/moviegeeks.git
+- cd moviegeeks
 
 
 # 👥 Authors:

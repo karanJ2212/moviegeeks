@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# MovieGeeks_ 🔖
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  
+  <br/>
+ <h3>MovieGeek Project</h3>
+ <h5>A beautiful website showcasing movies and tv shows that user wants to search. Built using React and redux toolkit  .</h5>
+</div>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 🛠 Built With
+### Tech Stack:
+- HTML5. 
+- CSS3.
+- Javascript using ES6.
+- React
+- Redux
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Key Features:
+- HTML5 semantics.
+- CSS3.
+- Javascript OOP, ES6.
+- React
+- Redux
+- Redux toolkit
+- 
 
-### `npm run build`
+# 💻 Getting Started:
+### To get a local copy up and running, follow these steps:
+- Install Git.
+- Create a local directory that you want to clone the repository.
+- Open the command prompt in the created directory.
+- On the terminal run this command git clone https://github.com/karanj2212/moviegeeks-.git
+- Install the dev dependencies for linters run npm install.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Prerequisites:
+### In order to run this project you need:
+- Installed Git.
+- A browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Setup:
+- Clone this repository to your desired folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install:
+### Install this project with:
+- Git.
+- Github.
 
-### `npm run eject`
+# Usage:
+### To run the project, execute the following command:
+- git clone https://github.com/karanj2212/moviegeek-.git
+- cd ToDo List
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 👥 Authors:
+### 👤 karan jain:
+- GitHub: [@karanj2212](https://github.com/karanj2212)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- LinkedIn: [karan jain](https://www.linkedin.com/in/karanjain2212/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 🔭 Future Features:
+Advance search options
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 🤝 Contributing:
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page.
+https://github.com/karanJ2212/moviegeeks/issues
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# ⭐️ Show your support
+If you like this project kindly send to me an e-mail expressing it, it would make my day and fuel my motivation.
 
-### Code Splitting
+# 🙏 Acknowledgments:
+I would like to thank Microverse team for this journey.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# ❓ FAQ:
+### How do I clone this with all the un-merged branches?
+- Kindly check the branches names in github then add them manually on your local machine, after that you may just pull the changes.
+### How to access the database?
+- It's not available for now I'm still working on it, once it's available I'll update this answer.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 📝 License:
+This project is MIT licensed.
+https://github.com/karanJ2212/moviegeeks/blob/develop/LICENSE.md

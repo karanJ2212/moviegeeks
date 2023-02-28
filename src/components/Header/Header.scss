@@ -20,3 +20,28 @@
   width: 38px;
   height: 38px;
 }
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+
+  form {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+
+    button {
+      padding: 0px 8px;
+      cursor: pointer;
+      height: 38px;
+    }
+  }
+  input {
+    font-size: 18px;
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    height: 38px;
+    outline: none;
+  }
+}

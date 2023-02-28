@@ -9,12 +9,12 @@ import {
 } from "../../features/movies/movieSlice";
 
 export default function Home() {
-  // const movietxt = "blood";
   const dispatch = useDispatch();
-
+  const movietxt = "spider";
+  const showtxt = "blood";
   useEffect(() => {
-    dispatch(fetchAsyncMovies());
-    dispatch(fetchAsyncSeries());
+    dispatch(fetchAsyncMovies(movietxt));
+    dispatch(fetchAsyncSeries(showtxt));
   }, [dispatch]);
 
   return (
